@@ -27,9 +27,6 @@ Chatbot basado en un LLM con recuperación aumentada de generación (RAG) que tr
 pip install -r requirements.txt
 ```
 
-- Variables de entorno necesarias (crear un archivo `.env` a partir de `.env.example`):
-
-  - `ENAHO_DATA_PATH`: ruta local a los microdatos de la ENAHO descargados.
 
 ## Estructura del repositorio
 
@@ -48,25 +45,7 @@ pip install -r requirements.txt
 ```
 
 
-## Cómo correr el pipeline
-
-1. Clonar el repositorio e instalar dependencias (ver sección *Requisitos*).
-2. Descargar los microdatos de la ENAHO y ubicarlos en `data/raw/`, o configurar `ENAHO_DATA_PATH` hacia su ubicación local.
-3. Construir el índice de recuperación (RAG) sobre el diccionario de variables:
-
-   ```bash
-   python src/build_index.py --data-path data/processed/
-   ```
-
-4. Ejecutar una consulta de prueba de extremo a extremo:
-
-   ```bash
-   python src/pipeline.py --question "¿Cuál es la distribución por edad?"
-   ```
-
-
-
-## Resultados esperados (mínimos)
+## Resultados esperados (mínimos) para el baseline
 
 El pipeline debe ser capaz de:
 
