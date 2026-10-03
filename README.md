@@ -2,7 +2,7 @@
 
 Chatbot basado en un LLM con recuperación aumentada de generación (RAG) que traduce preguntas en lenguaje natural en código Python ejecutable para calcular cifras estadísticas verificables sobre microdatos de encuestas, validado con la ENAHO y adaptable a bases propias de Arellano.
 
-## Autores / Equipo
+## Autor
 
 | Nombre | GitHub | Correo |
 |---|---|---|
