@@ -44,7 +44,6 @@ pip install -r requirements.txt
 ├── logs/                 # Registro por consulta: pregunta, esquema recuperado, código generado/ejecutado,
 │                          # resultado, tiempo y costo (para evaluación y reproducibilidad)
 ├── requirements.txt
-├── .env.example
 └── README.md
 ```
 
@@ -69,7 +68,7 @@ pip install -r requirements.txt
 
 ## Resultados esperados (mínimos)
 
-En el estado actual del proyecto, el pipeline debe ser capaz de:
+El pipeline debe ser capaz de:
 
 - Recibir una pregunta en lenguaje natural sobre una cifra de la ENAHO.
 - Recuperar (vía RAG) las variables/etiquetas del diccionario de la encuesta más relevantes para esa pregunta.
