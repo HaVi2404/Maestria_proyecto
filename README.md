@@ -15,7 +15,7 @@ Chatbot basado en un LLM con recuperación aumentada de generación (RAG) que tr
 
 - **Fuente:** Encuesta Nacional de Hogares (ENAHO), elaborada por el Instituto Nacional de Estadística e Informática (INEI) del Perú. Microdatos públicos disponibles en: https://proyectos.inei.gob.pe/microdatos/
 - **Descripción breve:** encuesta de hogares con módulos temáticos (características de la vivienda, empleo, ingresos, gasto, educación, salud, entre otros). El subconjunto usado en la Fase 1 corresponde al módulo Características de los miembros del hogar.
-- **Fecha y versión usada:** año/trimestre de la ENAHO: 2024. Fecha de descarga: 02/10/2026.
+- **Fecha y versión usada:** ENAHO: 2024. Fecha de descarga: 02/10/2026.
 - **Fase 2 (futura):** base propia de Arellano (datos de investigación de mercado), a incorporar una vez definido el acceso y el diccionario de variables correspondiente. No se documenta aquí por tratarse de datos comerciales confidenciales.
 
 ## Requisitos
