@@ -1,0 +1,2 @@
+2026-10-09 20:28:10,681 | INFO | HTTP Request: POST http://localhost:11434/api/chat "HTTP/1.1 200 OK"
+2026-10-09 20:28:11,864 | INFO | {'modelo': 'gemma2:9b', 'pregunta': '¿Cuál es el promedio de edad?', 'latencia_seg': 5248.163898153005, 'json_valido': True, 'plan_valido': True, 'variable_correcta': True, 'operacion_correcta': True, 'grupo_correcto': True, 'plan_exacto': True, 'recall_at_5': 1.0, 'mrr': 1.0, 'ejecucion_correcta': True, 'resultado_coincide': True, 'error': ''}
