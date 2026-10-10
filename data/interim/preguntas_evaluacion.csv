@@ -1,0 +1,4 @@
+﻿pregunta,variable_esperada,operacion_esperada,group_by_esperado
+¿Cuál es el promedio de edad?,P208A,promedio,
+¿Cuál es la distribución de P208?,P208A,frecuencia,
+¿Cuántos registros hay por edad?,,conteo,P208A
