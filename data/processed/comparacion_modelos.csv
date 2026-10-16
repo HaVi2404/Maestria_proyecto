@@ -1,0 +1,7 @@
+modelo,pregunta,latencia_seg,json_valido,plan_valido,variable_correcta,operacion_correcta,grupo_correcto,plan_exacto,recall_at_5,mrr,ejecucion_correcta,resultado_coincide,error
+gemma2:9b,¿Cuál es el promedio de edad?,5248.163898153005,True,True,True,True,True,True,1.0,1.0,True,True,
+gemma2:9b,¿Cuál es la distribución de P208?,5119.371434748005,True,True,True,True,True,True,1.0,1.0,True,True,
+gemma2:9b,¿Cuántos registros hay por edad?,2928.346355337002,True,True,False,True,False,False,,,True,False,
+qwen2.5:7b,¿Cuál es el promedio de edad?,339.671972406999,True,True,True,True,True,True,1.0,1.0,True,True,
+qwen2.5:7b,¿Cuál es la distribución de P208?,31.193240369000705,True,True,True,True,True,True,1.0,1.0,True,True,
+qwen2.5:7b,¿Cuántos registros hay por edad?,27.862535968000884,True,True,False,True,False,False,,,True,False,
